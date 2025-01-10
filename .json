@@ -1,0 +1,22 @@
+[
+    {
+        "object": "Person",
+        "id": 1,
+        "bbox": [100, 200, 300, 400],
+        "subobject": {
+            "object": "Helmet",
+            "id": 1,
+            "bbox": [120, 220, 280, 360]
+        }
+    },
+    {
+        "object": "Car",
+        "id": 2,
+        "bbox": [50, 150, 400, 600],
+        "subobject": {
+            "object": "Tire",
+            "id": 1,
+            "bbox": [60, 160, 100, 200]
+        }
+    }
+]
